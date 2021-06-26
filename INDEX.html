@@ -5,113 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Devolopment Bootcamp</title>
+    <link href="http://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Lobster|Patua+One$display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header>
-        <div>
-            <h3>She Gcek</h3>
+        <div class="container">
+            <div id="caption">
+            <h1><span class="highlight">SHE</span> GCEK</h1>
+            </div>
         </div>
         <nav>
             <ul>
                 <li><a href="INDEX.html">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section id="Hero">
-        <div>
-            <h1>Web Devolopment
-                <br> Bootcamp</h1>
+    <section id="heading">
+        <div class="container">
+            <h1>Web Devolopment</h1>
+            <h2>Bootcamp</h2> 
         </div>
+    </section>
+    <section id="search">
+
     </section>
 
     <section id="images">
-        <div>
+        <div class="container">
             <img src="img/8eb6eae3-b5bb-4232-b78f-b18fdc71db22.jpg" 
-            alt="HTML Image">
+            alt="HTML Image" height="100" width="100">
             <h3>HTML</h3>
-            <P>Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit.
-                Incidunt suscipit recusandae
-                alias quisquam praesentium aut 
-                dolor distinctio assumenda cum
-                vel asperiores maiores vitae
-                possimus , doloribus autem sit 
-                voluptates rem fugait! 
+            <P>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. 
             </P>
         </div>
-        <div>
+        <div class="container">
             <img src="img/f7dbe3ee-d327-4c58-817a-b247e7b1e6f0.jpg" 
-            alt="CSS Image">
+            alt="CSS Image" height="100" width="75">
             <h3>CSS</h3>
-            <P>Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit.
-                Incidunt suscipit recusandae
-                alias quisquam praesentium aut 
-                dolor distinctio assumenda cum
-                vel asperiores maiores vitae
-                possimus , doloribus autem sit 
-                voluptates rem fugait! 
+            <P>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.
             </P>
         </div>
-        <div>
+        <div class="container">
             <img src="img/cff2650a-81f0-4e26-a1f0-f1ffc036003f.jpg" 
-            alt="JS Image" height="200" width="200">
+            alt="JS Image" height="100" width="200">
             <h3>JS</h3>
-            <P>Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit.
-                Incidunt suscipit recusandae
-                alias quisquam praesentium aut 
-                dolor distinctio assumenda cum
-                vel asperiores maiores vitae
-                possimus , doloribus autem sit 
-                voluptates rem fugait! 
+            <P>JavaScript is a dynamic computer programming language. It is lightweight and most commonly used as a part of web pages, whose implementations allow client-side script to interact with the user and make dynamic pages. It is an interpreted programming language with object-oriented capabilities.
             </P>
         </div>
 
     </section>
 
-    <section id="Slogan">
-        <div>
-            <h2>Hurry up! and
-                <br> experience the journey
-                <br> with us!</h2>
+    <section id="slogan">
+        <div class="container">
+            <div class="slogan">
+             <h2>Hurry up! and experience the journey with us!</h2>
                 <p>
-                    Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit.
-                Incidunt suscipit recusandae
-                alias quisquam praesentium aut 
-                dolor distinctio assumenda cum
-                vel asperiores maiores vitae
-                possimus , doloribus autem sit 
-                voluptates rem fugait!
+                    The program Scheme for Her Empowerment in Engineering education (SHE)
+              s initiated at GCE Kannur which was the change project undertaken under
+               AICTE- UKERI scheme. On identification of the burning need of empowering
+                the girl students of GCE Kannur, it was decided to take a more assertive
+                 role in imparting them the exposure and experience they need to eventually 
+              fulfill their career demands and to assume leadership roles facing all challenges
                 </p>
+                <h4>Register Here</h4>
+            </div>
         </div>
 
     </section>
 
     <section id="forms">
-        <h4>Register Here</h4>
-        <div>
-            <form>
-                <div>
+        <div class="container">
+            <form style="text-align: center;justify-content: center;">
+                <div class="formgroup">
                     <label>Name</label>
                     <input type="text">
                 </div>
-                <div>
+                <div class="formgroup">
                     <label>Email</label>
                     <input type="text">
                 </div>
-                <div>
+                <div class="formgroup">
                     <label>Batch</label>
-                    <select>
-                        <option>2k20</option>
-                        <option>2k19</option>
-                        <option>2k18</option>
-                        <option>2k17</option>
-                    </select>
+                    <input type="text">
+                    
                 </div>
                 <div>
                     <input type="submit">
@@ -122,12 +103,16 @@
     </section>
 
     <section id="video">
-        <h2>Learn,Explore and <br>Create</h2>
+        <div class="container">
+        <div class="slogan">
+        <h2>Learn,Explore and <br>Create..</h2>
         <iframe width="600" height="400"
          src="https://www.youtube.com/embed/HEMjF3LEtCo?list=PLhwamR3PmxEHdJVI-Pu4kb_DD2JZa8GfL" 
          title="YouTube video player" frameborder="0" 
          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
          allowfullscreen></iframe>
+    </div>
+    </div>
 
     </section>
     <footer>
@@ -136,6 +121,7 @@
             copyright &copy; 2020
 
         </p>
+        <p>This is a fake website</p>
     </footer>
 </body>
 </html>
