@@ -183,3 +183,17 @@ footer{
     background: #143D59;
     text-align: center;
 }
+#slogan .know{
+    text-align: center;
+    
+}
+#Know-more{
+    display: none;
+}
+
+#name-validation , #email-validation , #batch-validation{
+    color: red;
+    font-size: 13px;
+    display: none;
+
+}

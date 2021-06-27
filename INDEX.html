@@ -7,6 +7,7 @@
     <title>Web Devolopment Bootcamp</title>
     <link href="http://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Lobster|Patua+One$display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="JS/script.js"></script>
 
 </head>
 <body>
@@ -72,6 +73,11 @@
                  role in imparting them the exposure and experience they need to eventually 
               fulfill their career demands and to assume leadership roles facing all challenges
                 </p>
+                <div class="know">
+                <button style="text-align: center;justify-content: center;" onclick="changecontent()">Know more</button>
+                <p id="Know-more">Lorem ipsum,dolor sit amet consectetur adipisicing elit. Minus aliquid baetae ut sint</p>
+                 
+                </div>
                 <h4>Register Here</h4>
             </div>
         </div>
@@ -80,18 +86,21 @@
 
     <section id="forms">
         <div class="container">
-            <form style="text-align: center;justify-content: center;">
+            <form style="text-align: center;justify-content: center;" onsubmit="return validation()">
                 <div class="formgroup">
                     <label>Name</label>
-                    <input type="text">
+                    <input id="name-input" type="text">
+                    <p id="name-validation">Enter name</p>
                 </div>
                 <div class="formgroup">
                     <label>Email</label>
-                    <input type="text">
+                    <input id="email-input" type="text">
+                    <p id="email-validation">Email cannot be empty</p>
                 </div>
                 <div class="formgroup">
                     <label>Batch</label>
-                    <input type="text">
+                    <input id="batch-input" type="text">
+                    <p id="batch-validation">Enter batch</p>
                     
                 </div>
                 <div>
